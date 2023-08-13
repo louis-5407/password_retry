@@ -7,6 +7,8 @@ while i <= 3:
 	else:
 		i = i + 1
 		l = 4 - i
-		print("錯了，還有",l,"次")
+		if l != 0:
+			print("錯了，還有",l,"次")
+
 
 
